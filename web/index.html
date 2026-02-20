@@ -32,6 +32,9 @@
             document.head.appendChild(meta);
           }
           meta.content = clientId;
+          console.log('[index.html] google-signin-client_id set to:', clientId);
+        } else {
+          console.warn('[index.html] GOOGLE_CLIENT_ID missing in env.js');
         }
       } catch (e) {
         console && console.warn && console.warn('Failed to set google client id from env.js', e);
