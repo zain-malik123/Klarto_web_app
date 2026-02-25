@@ -95360,12 +95360,12 @@ m=A.w(i,t.K)
 J.fc(m,"name",a0)
 J.fc(m,"color",b)
 J.fc(m,"access",a)
-J.fc(m,"isFavorite",c)
-if(d!=null)J.fc(m,"memberIds",d)
+J.fc(m,"is_favorite",c)
+if(d!=null)J.fc(m,"member_ids",d)
 s=8
 return A.i(A.fQ(g,B.u.cu(m),f),$async$xW)
 case 8:l=a2
-if(l.b===201){m=l
+if(l.b===201||l.b===200){m=l
 k=B.u.ad(A.bR(A.bQ(m.e)).ad(m.w))
 i=A.x(["success",!0,"project",k],i,t.z)
 q=i
